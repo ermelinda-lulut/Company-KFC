@@ -25,11 +25,10 @@
       <section id="contact" class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center" style="color: brown;">Contact Us</h2>
-            <form action="/customer" method="POST" enctype="multipart/form-data">
-                @csrf
+            <form action="submit.php" method="POST" enctype="multipart/form-data">
                 <div class="mb-3">
                     <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" name="nama" required>
+                    <input type="text" class="form-control" id="name" name="name" required>
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
@@ -37,11 +36,11 @@
                 </div>
                 <div class="mb-3">
                     <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" rows="3" name="pesan"></textarea>
+                    <textarea class="form-control" id="message" rows="3" name="message"></textarea>
                 </div>
                 <div class="mb-3">
                     <label for="message" class="form-label">File</label>
-                    <input type="file" class="form-control" name="assets">
+                    <input type="file" class="form-control" name="file">
                 </div>
                 <button type="submit" class="btn btn-primary">Send Message</button>
             </form>
