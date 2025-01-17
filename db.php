@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost'; 
+$host = '34.688.246.24'; 
 $user = 'root';      
-$password = 'adhi1234';     
-$db_name = 'db_cvpengarep'; 
+$password = 'abc1234';     
+$db_name = 'db_kfc'; 
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db_name;charset=$charset";
