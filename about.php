@@ -13,11 +13,12 @@
     <!-- Navbar -->
     <nav class="navbar navbar-light bg-danger">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
             <div class="d-flex align-items-center">
-                <img src="LOGO.jpg" alt="" width="100" height="100" class="img-thumbnail float-right">
+                <img src="assets/LOGO.jpg" alt="" width="100" height="100" class="img-thumbnail">
+                <p class="ms-5"><a href="index.php" style="color: aqua;">HOME.....</a></p>
+                <p class="ms-5"><a href="about.php" style="color: aqua;">ABOUT US.....</a></p>
+                <p class="ms-5"><a href="contact.php" style="color: aqua;">CONTACT US.....</a></p>
             </div>
-          </a>
         </div>
       </nav>
 
@@ -51,6 +52,7 @@
             </div>
         </div>
     </section>
+
     <!-- Services Section -->
     <section id="services" class="py-5">
         <div class="container">
@@ -83,28 +85,7 @@
             </div>
         </div>
     </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center" style="color: brown;">Contact Us</h2>
-            <form>
-                <div class="mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" required>
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" required>
-                </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
-        </div>
-    </section>
+    
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
